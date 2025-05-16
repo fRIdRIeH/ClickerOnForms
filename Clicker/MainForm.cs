@@ -9,13 +9,27 @@ namespace Clicker
         //Стоковые переменные, часть будет меняться
         int click = 1;
 
-        int buyedPower = 0;
-        int buyedCPSPower = 0;
+        int buyedMoueses = 0;
+        int buyedSchoolars = 0;
+        int buyedIndianBoys = 0;
+        int buyedCallCentres = 0;
+        int buyedGaymers = 0;
+        int buyedCyberSportsman = 0;
+        int buyedCyberTeams = 0;
+        int buyedKoreaHackers = 0;
 
-        int buyedOneSecondPower = 0;
+        //Базовый cps
+        int OneSecPower = 0;
 
-        int basePriceForBuyPower = 50;
-        int basePriceForCPSPower = 100;
+        //Базовые цены
+        int basePriceForMouse = 50;
+        int basePriceForSchoolar = 100;
+        int basePriceForIndianBoy = 1600;
+        int basePriceForCallCenter = 12800;
+        int basePriceForGaymer = 204800;
+        int basePriceForCyberSportman = 1638400;
+        int basePriceForCyberTeam = 13107200;
+        int basePriceForKoreaHackers = 104857600;
 
         public MainForm()
         {
@@ -23,11 +37,29 @@ namespace Clicker
 
             txtCount.Text = (0).ToString();
 
-            btnBuyPower.Enabled = false;
-            btnBuyPower.Text = $"+1 click power for {basePriceForBuyPower} clicks";
+            btnMouseUpgrade.Enabled = false;
+            btnMouseUpgrade.Text = $"Улучшить мышку за {basePriceForMouse} кликов";
 
-            btnBuyCPS.Enabled = false;
-            btnBuyCPS.Text = $"+1 cps power for {basePriceForCPSPower} clicks";
+            btnBuySchoolar.Enabled = false;
+            btnBuySchoolar.Text = $"Купить школьника за {basePriceForSchoolar} кликов";
+
+            btnBuyIndianBoy.Enabled = false;
+            btnBuyIndianBoy.Text = $"Купить индуса за {basePriceForIndianBoy} кликов";
+
+            btnBuyCallCenter.Enabled = false;
+            btnBuyCallCenter.Text = $"Купить колл-центр за {basePriceForCallCenter} кликов";
+
+            btnBuyGaymer.Enabled = false;
+            btnBuyGaymer.Text = $"Купить геймера за {basePriceForGaymer}";
+
+            btnBuyCyberSportman.Enabled = false;
+            btnBuyCyberSportman.Text = $"Купить киберспортсмена за {basePriceForCyberSportman} кликов";
+
+            btnBuyCyberTeam.Enabled = false;
+            btnBuyCyberTeam.Text = $"Купить киберспорт команду за {basePriceForCyberTeam} кликов";
+
+            btnBuyKoreaHackers.Enabled = false;
+            btnBuyKoreaHackers.Text = $"Купить корейских хакеров за {basePriceForKoreaHackers} кликов";
 
             //таймер каждую секунду
 
@@ -37,15 +69,24 @@ namespace Clicker
             timer.Start();
         }
 
+
+        //
+        // Таймер
+        //
         private void Timer_Tick(object sender, EventArgs e)
         {
             int number;
             if (int.TryParse(txtCount.Text, out number))
             {
-                txtCount.Text = (number + buyedOneSecondPower).ToString();
+                txtCount.Text = (number + OneSecPower).ToString();
             }
         }
 
+
+
+        //
+        // Нажатие кнопки
+        //
         private void btnClick_Click(object sender, EventArgs e)
         {
             int number;
@@ -55,27 +96,42 @@ namespace Clicker
             }
         }
 
+
+
+        //
+        // Разблокировка кнопок по количеству кликов
+        //
         private void txtCount_TextChanged(object sender, EventArgs e)
         {
-            if (int.Parse(txtCount.Text) > basePriceForBuyPower)
+            if (int.Parse(txtCount.Text) > basePriceForMouse)
             {
-                btnBuyPower.Enabled = true;
+                btnMouseUpgrade.Enabled = true;
             }
-            if (int.Parse(txtCount.Text) > basePriceForCPSPower)
+            if (int.Parse(txtCount.Text) > basePriceForSchoolar)
             {
-                btnBuyCPS.Enabled = true;
+                btnBuySchoolar.Enabled = true;
             }
         }
+
+
+
+        //
+        // Действия на кнопках
+        //
+        //
+        //
+
+
 
         private void btnBuyPower_Click(object sender, EventArgs e)
         {
             int number;
             if (int.TryParse(txtCount.Text, out number))
             {
-                if (number >= basePriceForBuyPower)
+                if (number >= basePriceForMouse)
                 {
                     //вычитаем из кликов
-                    txtCount.Text = (number - basePriceForBuyPower).ToString();
+                    txtCount.Text = (number - basePriceForMouse).ToString();
 
                     //прибавляем к нашему нажатию 1
                     click += 1;
@@ -83,15 +139,15 @@ namespace Clicker
                     lblClickPower.Text = $"Click power = {click}";
 
                     //прибавляем к переменной 1
-                    buyedPower += 1;
+                    buyedMoueses += 1;
 
-                    lblClicksBuyed.Text = $"Куплено: {buyedPower}";
+                    lblClicksBuyed.Text = $"Куплено: {buyedMoueses}";
 
                     //изменяем цену
-                    basePriceForBuyPower += (int)(basePriceForBuyPower * 0.3 * buyedPower);
+                    basePriceForMouse += (int)(basePriceForMouse * 0.3 * buyedMoueses);
 
                     //изменяем текст кнопки с новой ценой
-                    btnBuyPower.Text = $"+1 click power for {basePriceForBuyPower} clicks";
+                    btnMouseUpgrade.Text = $"+1 click power for {basePriceForMouse} clicks";
                 }
                 else
                 {
@@ -105,21 +161,21 @@ namespace Clicker
             int number;
             if (int.TryParse(txtCount.Text, out number))
             {
-                if (number >= basePriceForCPSPower)
+                if (number >= basePriceForSchoolar)
                 {
-                    txtCount.Text = (number - basePriceForCPSPower).ToString();
+                    txtCount.Text = (number - basePriceForSchoolar).ToString();
 
-                    buyedOneSecondPower += 1;
+                    OneSecPower += 1;
 
-                    lblCPS.Text = $"CPS = {buyedOneSecondPower}";
+                    lblCPS.Text = $"CPS = {OneSecPower}";
 
-                    buyedCPSPower += 1;
+                    buyedSchoolars += 1;
 
-                    lblCPSbuyed.Text = $"Куплено: {buyedCPSPower}";
+                    lblCPSbuyed.Text = $"Куплено: {buyedSchoolars}";
 
-                    basePriceForCPSPower += (int)(basePriceForCPSPower * 0.3 * buyedCPSPower);
+                    basePriceForSchoolar += (int)(basePriceForSchoolar * 0.3 * buyedSchoolars);
 
-                    btnBuyCPS.Text = $"+1 click power for {basePriceForCPSPower} clicks";
+                    btnBuySchoolar.Text = $"+1 click power for {basePriceForSchoolar} clicks";
                 }
                 else
                 {
