@@ -6,6 +6,7 @@ namespace Clicker
     {
         private System.Windows.Forms.Timer timer;
 
+        //Стоковые переменные, часть будет меняться
         int click = 1;
 
         int buyedPower = 0;
@@ -26,7 +27,7 @@ namespace Clicker
             btnBuyPower.Text = $"+1 click power for {basePriceForBuyPower} clicks";
 
             btnBuyCPS.Enabled = false;
-            btnBuyCPS.Text = $"+1 cps/s power for {basePriceForCPSPower} clicks";
+            btnBuyCPS.Text = $"+1 cps power for {basePriceForCPSPower} clicks";
 
             //таймер каждую секунду
 

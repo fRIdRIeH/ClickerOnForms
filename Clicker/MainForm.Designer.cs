@@ -55,6 +55,7 @@
             txtCount.Name = "txtCount";
             txtCount.Size = new Size(177, 33);
             txtCount.TabIndex = 2;
+            txtCount.TextAlign = HorizontalAlignment.Right;
             txtCount.TextChanged += txtCount_TextChanged;
             // 
             // btnBuyPower
@@ -73,7 +74,7 @@
             btnBuyCPS.Name = "btnBuyCPS";
             btnBuyCPS.Size = new Size(284, 52);
             btnBuyCPS.TabIndex = 4;
-            btnBuyCPS.Text = "+1 cps/s power for 100 clicks";
+            btnBuyCPS.Text = "+1 cps power for 100 clicks";
             btnBuyCPS.UseVisualStyleBackColor = true;
             btnBuyCPS.Click += btnBuyCPS_Click;
             // 
