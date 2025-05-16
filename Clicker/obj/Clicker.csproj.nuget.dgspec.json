@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\Clicker\\Clicker\\Clicker.csproj": {}
+    "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\ClickerOnForms\\Clicker\\Clicker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\Clicker\\Clicker\\Clicker.csproj": {
+    "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\ClickerOnForms\\Clicker\\Clicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\Clicker\\Clicker\\Clicker.csproj",
+        "projectUniqueName": "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\ClickerOnForms\\Clicker\\Clicker.csproj",
         "projectName": "Clicker",
-        "projectPath": "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\Clicker\\Clicker\\Clicker.csproj",
+        "projectPath": "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\ClickerOnForms\\Clicker\\Clicker.csproj",
         "packagesPath": "C:\\Users\\wladw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\Clicker\\Clicker\\obj\\",
+        "outputPath": "C:\\Users\\wladw\\OneDrive\\Документы\\GitHub\\ClickerOnForms\\Clicker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

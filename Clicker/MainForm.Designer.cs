@@ -34,6 +34,8 @@
             btnBuyCPS = new Button();
             lblClickPower = new Label();
             lblCPS = new Label();
+            lblClicksBuyed = new Label();
+            lblCPSbuyed = new Label();
             SuspendLayout();
             // 
             // btnClick
@@ -67,7 +69,7 @@
             // 
             // btnBuyCPS
             // 
-            btnBuyCPS.Location = new Point(1016, 70);
+            btnBuyCPS.Location = new Point(1016, 95);
             btnBuyCPS.Name = "btnBuyCPS";
             btnBuyCPS.Size = new Size(284, 52);
             btnBuyCPS.TabIndex = 4;
@@ -93,11 +95,31 @@
             lblCPS.TabIndex = 6;
             lblCPS.Text = "CPS = 0";
             // 
+            // lblClicksBuyed
+            // 
+            lblClicksBuyed.AutoSize = true;
+            lblClicksBuyed.Location = new Point(1016, 67);
+            lblClicksBuyed.Name = "lblClicksBuyed";
+            lblClicksBuyed.Size = new Size(97, 25);
+            lblClicksBuyed.TabIndex = 7;
+            lblClicksBuyed.Text = "Куплено: ";
+            // 
+            // lblCPSbuyed
+            // 
+            lblCPSbuyed.AutoSize = true;
+            lblCPSbuyed.Location = new Point(1016, 150);
+            lblCPSbuyed.Name = "lblCPSbuyed";
+            lblCPSbuyed.Size = new Size(97, 25);
+            lblCPSbuyed.TabIndex = 8;
+            lblCPSbuyed.Text = "Куплено: ";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1322, 639);
+            Controls.Add(lblCPSbuyed);
+            Controls.Add(lblClicksBuyed);
             Controls.Add(lblCPS);
             Controls.Add(lblClickPower);
             Controls.Add(btnBuyCPS);
@@ -120,5 +142,7 @@
         private Button btnBuyCPS;
         private Label lblClickPower;
         private Label lblCPS;
+        private Label lblClicksBuyed;
+        private Label lblCPSbuyed;
     }
 }

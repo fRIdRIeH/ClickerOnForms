@@ -8,13 +8,14 @@ namespace Clicker
 
         int click = 1;
 
-        int buyedPower = 1;
-        int buyedCPSPower = 1;
+        int buyedPower = 0;
+        int buyedCPSPower = 0;
 
         int buyedOneSecondPower = 0;
 
         int basePriceForBuyPower = 50;
         int basePriceForCPSPower = 100;
+
         public MainForm()
         {
             InitializeComponent();
@@ -83,6 +84,8 @@ namespace Clicker
                     //прибавляем к переменной 1
                     buyedPower += 1;
 
+                    lblClicksBuyed.Text = $"Куплено: {buyedPower}";
+
                     //изменяем цену
                     basePriceForBuyPower += (int)(basePriceForBuyPower * 0.3 * buyedPower);
 
@@ -110,6 +113,8 @@ namespace Clicker
                     lblCPS.Text = $"CPS = {buyedOneSecondPower}";
 
                     buyedCPSPower += 1;
+
+                    lblCPSbuyed.Text = $"Куплено: {buyedCPSPower}";
 
                     basePriceForCPSPower += (int)(basePriceForCPSPower * 0.3 * buyedCPSPower);
 
