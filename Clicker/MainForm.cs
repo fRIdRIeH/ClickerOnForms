@@ -37,6 +37,23 @@ namespace Clicker
 
             txtCount.Text = (0).ToString();
 
+            LoadPowerUps();
+
+            Test();
+
+            //таймер каждую секунду
+
+            timer = new System.Windows.Forms.Timer();
+            timer.Interval = 1000; // 1000 мс = 1 секунда
+            timer.Tick += Timer_Tick;
+            timer.Start();
+        }
+
+        //
+        // ”казание на кнопки
+        //
+        private void LoadPowerUps()
+        {
             btnMouseUpgrade.Enabled = false;
             btnMouseUpgrade.Text = $"”лучшить мышку за {basePriceForMouse} кликов";
 
@@ -60,13 +77,20 @@ namespace Clicker
 
             btnBuyKoreaHackers.Enabled = false;
             btnBuyKoreaHackers.Text = $" упить корейских хакеров за {basePriceForKoreaHackers} кликов";
+        }
 
-            //таймер каждую секунду
 
-            timer = new System.Windows.Forms.Timer();
-            timer.Interval = 1000; // 1000 мс = 1 секунда
-            timer.Tick += Timer_Tick;
-            timer.Start();
+        //
+        // 
+        //
+        private void Test()
+        {
+            BigNumber a = new BigNumber(1.5, 1000); // 1.5e1000
+            BigNumber b = new BigNumber(2.5, 999);  // 2.5e999
+
+            BigNumber result = a + b;
+
+            txtBuff.Text = result.ToString(); // например, 1.50000000000002e1000
         }
 
 
@@ -156,7 +180,7 @@ namespace Clicker
             }
         }
 
-        private void btnBuyCPS_Click(object sender, EventArgs e)
+        private void btnBuySchoolar_Click(object sender, EventArgs e)
         {
             int number;
             if (int.TryParse(txtCount.Text, out number))

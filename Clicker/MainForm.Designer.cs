@@ -48,6 +48,7 @@
             btnBuyCyberTeam = new Button();
             label5 = new Label();
             label6 = new Label();
+            txtBuff = new TextBox();
             SuspendLayout();
             // 
             // btnClick
@@ -88,7 +89,7 @@
             btnBuySchoolar.TabIndex = 4;
             btnBuySchoolar.Text = "Купить школьника";
             btnBuySchoolar.UseVisualStyleBackColor = true;
-            btnBuySchoolar.Click += btnBuyCPS_Click;
+            btnBuySchoolar.Click += btnBuySchoolar_Click;
             // 
             // lblClickPower
             // 
@@ -234,11 +235,21 @@
             label6.TabIndex = 20;
             label6.Text = "Куплено: ";
             // 
+            // txtBuff
+            // 
+            txtBuff.Enabled = false;
+            txtBuff.Location = new Point(361, 210);
+            txtBuff.Name = "txtBuff";
+            txtBuff.Size = new Size(331, 33);
+            txtBuff.TabIndex = 21;
+            txtBuff.TextAlign = HorizontalAlignment.Right;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1904, 1041);
+            Controls.Add(txtBuff);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(btnBuyKoreaHackers);
@@ -289,5 +300,6 @@
         private Button btnBuyCyberTeam;
         private Label label5;
         private Label label6;
+        private TextBox txtBuff;
     }
 }
