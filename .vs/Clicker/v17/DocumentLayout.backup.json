@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\",
+  "WorkspaceRootPath": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|c:\\users\\wladw\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\clickeronforms\\clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|solutionrelative:clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|c:\\users\\wladw\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\clickeronforms\\clicker\\bignumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|c:\\users\\fridrieh\\desktop\\labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0438\u0441\u0440\u043F\u043E\\clickeronforms\\clicker\\bignumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|solutionrelative:clicker\\bignumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|c:\\users\\fridrieh\\desktop\\labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0438\u0441\u0440\u043F\u043E\\clickeronforms\\clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|solutionrelative:clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|c:\\users\\fridrieh\\desktop\\labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0438\u0441\u0440\u043F\u043E\\clickeronforms\\clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E65740CA-246C-48D3-8B83-CEC499E04DB1}|Clicker\\Clicker.csproj|solutionrelative:clicker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,25 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BigNumber.cs",
-              "DocumentMoniker": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\Clicker\\BigNumber.cs",
+              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\Clicker\\BigNumber.cs",
               "RelativeDocumentMoniker": "Clicker\\BigNumber.cs",
-              "ToolTip": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\Clicker\\BigNumber.cs",
+              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\Clicker\\BigNumber.cs",
               "RelativeToolTip": "Clicker\\BigNumber.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAywHIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:15:11.115Z"
+              "WhenOpened": "2025-05-17T09:15:11.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\Clicker\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\Clicker\\MainForm.cs",
               "RelativeDocumentMoniker": "Clicker\\MainForm.cs",
-              "ToolTip": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\Clicker\\MainForm.cs",
+              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\Clicker\\MainForm.cs",
               "RelativeToolTip": "Clicker\\MainForm.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAwwDoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T09:02:07.282Z",
               "EditorCaption": ""
@@ -57,12 +58,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\Clicker\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\Clicker\\MainForm.cs",
               "RelativeDocumentMoniker": "Clicker\\MainForm.cs",
-              "ToolTip": "C:\\Users\\wladw\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ClickerOnForms\\Clicker\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\ClickerOnForms\\Clicker\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Clicker\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:45:59.852Z"
+              "WhenOpened": "2025-05-16T18:45:59.852Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }

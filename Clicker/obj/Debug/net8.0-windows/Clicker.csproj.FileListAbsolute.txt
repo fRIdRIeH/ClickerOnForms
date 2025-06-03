@@ -31,3 +31,20 @@ C:\Users\wladw\OneDrive\Документы\GitHub\ClickerOnForms\Clicker\obj\Deb
 C:\Users\wladw\OneDrive\Документы\GitHub\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.pdb
 C:\Users\wladw\OneDrive\Документы\GitHub\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.genruntimeconfig.cache
 C:\Users\wladw\OneDrive\Документы\GitHub\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\ref\Clicker.dll
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\bin\Debug\net8.0-windows\Clicker.exe
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\bin\Debug\net8.0-windows\Clicker.deps.json
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\bin\Debug\net8.0-windows\Clicker.runtimeconfig.json
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\bin\Debug\net8.0-windows\Clicker.dll
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\bin\Debug\net8.0-windows\Clicker.pdb
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.MainForm.resources
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.csproj.GenerateResource.cache
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.AssemblyInfoInputs.cache
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.AssemblyInfo.cs
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.csproj.CoreCompileInputs.cache
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.sourcelink.json
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.dll
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\refint\Clicker.dll
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.pdb
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\Clicker.genruntimeconfig.cache
+C:\Users\fRIdRIeH\Desktop\Labs\4 курс\с# ИСРПО\ClickerOnForms\Clicker\obj\Debug\net8.0-windows\ref\Clicker.dll

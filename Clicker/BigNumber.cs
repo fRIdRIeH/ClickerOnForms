@@ -112,6 +112,10 @@ namespace Clicker
             return Mantissa.ToString("0." + new string('#', digits - 1)) + "e" + Exponent;
         }
 
+        public string ToScientificRaw()
+        {
+            return $"{Mantissa:0.###}e{Exponent}";
+        }
         public string ToSuffix()
         {
             string[] suffixes = {
