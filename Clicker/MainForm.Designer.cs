@@ -48,7 +48,6 @@
             btnBuyCyberTeam = new Button();
             label5 = new Label();
             label6 = new Label();
-            txtBuff = new TextBox();
             SuspendLayout();
             // 
             // btnClick
@@ -73,9 +72,9 @@
             // 
             // btnMouseUpgrade
             // 
-            btnMouseUpgrade.Location = new Point(1608, 25);
+            btnMouseUpgrade.Location = new Point(1497, 25);
             btnMouseUpgrade.Name = "btnMouseUpgrade";
-            btnMouseUpgrade.Size = new Size(284, 52);
+            btnMouseUpgrade.Size = new Size(395, 52);
             btnMouseUpgrade.TabIndex = 3;
             btnMouseUpgrade.Text = "Улучшить мышку";
             btnMouseUpgrade.UseVisualStyleBackColor = true;
@@ -83,9 +82,9 @@
             // 
             // btnBuySchoolar
             // 
-            btnBuySchoolar.Location = new Point(1608, 108);
+            btnBuySchoolar.Location = new Point(1497, 108);
             btnBuySchoolar.Name = "btnBuySchoolar";
-            btnBuySchoolar.Size = new Size(284, 52);
+            btnBuySchoolar.Size = new Size(395, 52);
             btnBuySchoolar.TabIndex = 4;
             btnBuySchoolar.Text = "Купить школьника";
             btnBuySchoolar.UseVisualStyleBackColor = true;
@@ -112,7 +111,7 @@
             // lblClicksBuyed
             // 
             lblClicksBuyed.AutoSize = true;
-            lblClicksBuyed.Location = new Point(1608, 80);
+            lblClicksBuyed.Location = new Point(1497, 80);
             lblClicksBuyed.Name = "lblClicksBuyed";
             lblClicksBuyed.Size = new Size(97, 25);
             lblClicksBuyed.TabIndex = 7;
@@ -121,7 +120,7 @@
             // lblCPSbuyed
             // 
             lblCPSbuyed.AutoSize = true;
-            lblCPSbuyed.Location = new Point(1608, 163);
+            lblCPSbuyed.Location = new Point(1497, 163);
             lblCPSbuyed.Name = "lblCPSbuyed";
             lblCPSbuyed.Size = new Size(97, 25);
             lblCPSbuyed.TabIndex = 8;
@@ -129,9 +128,9 @@
             // 
             // btnBuyIndianBoy
             // 
-            btnBuyIndianBoy.Location = new Point(1608, 191);
+            btnBuyIndianBoy.Location = new Point(1497, 191);
             btnBuyIndianBoy.Name = "btnBuyIndianBoy";
-            btnBuyIndianBoy.Size = new Size(284, 52);
+            btnBuyIndianBoy.Size = new Size(395, 52);
             btnBuyIndianBoy.TabIndex = 9;
             btnBuyIndianBoy.Text = "Купить индуса";
             btnBuyIndianBoy.UseVisualStyleBackColor = true;
@@ -139,7 +138,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(1608, 246);
+            label1.Location = new Point(1497, 246);
             label1.Name = "label1";
             label1.Size = new Size(97, 25);
             label1.TabIndex = 10;
@@ -148,7 +147,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(1608, 329);
+            label2.Location = new Point(1497, 329);
             label2.Name = "label2";
             label2.Size = new Size(97, 25);
             label2.TabIndex = 12;
@@ -156,9 +155,9 @@
             // 
             // btnBuyCallCenter
             // 
-            btnBuyCallCenter.Location = new Point(1608, 274);
+            btnBuyCallCenter.Location = new Point(1497, 274);
             btnBuyCallCenter.Name = "btnBuyCallCenter";
-            btnBuyCallCenter.Size = new Size(284, 52);
+            btnBuyCallCenter.Size = new Size(395, 52);
             btnBuyCallCenter.TabIndex = 11;
             btnBuyCallCenter.Text = "Купить колл-центр";
             btnBuyCallCenter.UseVisualStyleBackColor = true;
@@ -166,7 +165,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(1608, 412);
+            label3.Location = new Point(1497, 412);
             label3.Name = "label3";
             label3.Size = new Size(97, 25);
             label3.TabIndex = 14;
@@ -174,9 +173,9 @@
             // 
             // btnBuyGaymer
             // 
-            btnBuyGaymer.Location = new Point(1608, 357);
+            btnBuyGaymer.Location = new Point(1497, 357);
             btnBuyGaymer.Name = "btnBuyGaymer";
-            btnBuyGaymer.Size = new Size(284, 52);
+            btnBuyGaymer.Size = new Size(395, 52);
             btnBuyGaymer.TabIndex = 13;
             btnBuyGaymer.Text = "Купить геймера";
             btnBuyGaymer.UseVisualStyleBackColor = true;
@@ -184,7 +183,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(1608, 495);
+            label4.Location = new Point(1497, 495);
             label4.Name = "label4";
             label4.Size = new Size(97, 25);
             label4.TabIndex = 16;
@@ -192,27 +191,27 @@
             // 
             // btnBuyCyberSportman
             // 
-            btnBuyCyberSportman.Location = new Point(1608, 440);
+            btnBuyCyberSportman.Location = new Point(1497, 440);
             btnBuyCyberSportman.Name = "btnBuyCyberSportman";
-            btnBuyCyberSportman.Size = new Size(284, 52);
+            btnBuyCyberSportman.Size = new Size(395, 52);
             btnBuyCyberSportman.TabIndex = 15;
             btnBuyCyberSportman.Text = "Купить киберспортсмена";
             btnBuyCyberSportman.UseVisualStyleBackColor = true;
             // 
             // btnBuyKoreaHackers
             // 
-            btnBuyKoreaHackers.Location = new Point(1608, 606);
+            btnBuyKoreaHackers.Location = new Point(1497, 606);
             btnBuyKoreaHackers.Name = "btnBuyKoreaHackers";
-            btnBuyKoreaHackers.Size = new Size(284, 52);
+            btnBuyKoreaHackers.Size = new Size(395, 52);
             btnBuyKoreaHackers.TabIndex = 18;
             btnBuyKoreaHackers.Text = "Купить хакеров из Кореи";
             btnBuyKoreaHackers.UseVisualStyleBackColor = true;
             // 
             // btnBuyCyberTeam
             // 
-            btnBuyCyberTeam.Location = new Point(1608, 523);
+            btnBuyCyberTeam.Location = new Point(1497, 523);
             btnBuyCyberTeam.Name = "btnBuyCyberTeam";
-            btnBuyCyberTeam.Size = new Size(284, 52);
+            btnBuyCyberTeam.Size = new Size(395, 52);
             btnBuyCyberTeam.TabIndex = 17;
             btnBuyCyberTeam.Text = "Купить киберспорт команду";
             btnBuyCyberTeam.UseVisualStyleBackColor = true;
@@ -220,7 +219,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(1608, 578);
+            label5.Location = new Point(1497, 578);
             label5.Name = "label5";
             label5.Size = new Size(97, 25);
             label5.TabIndex = 19;
@@ -229,27 +228,17 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(1608, 661);
+            label6.Location = new Point(1497, 661);
             label6.Name = "label6";
             label6.Size = new Size(97, 25);
             label6.TabIndex = 20;
             label6.Text = "Куплено: ";
-            // 
-            // txtBuff
-            // 
-            txtBuff.Enabled = false;
-            txtBuff.Location = new Point(361, 210);
-            txtBuff.Name = "txtBuff";
-            txtBuff.Size = new Size(331, 33);
-            txtBuff.TabIndex = 21;
-            txtBuff.TextAlign = HorizontalAlignment.Right;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1904, 1041);
-            Controls.Add(txtBuff);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(btnBuyKoreaHackers);
@@ -300,6 +289,5 @@
         private Button btnBuyCyberTeam;
         private Label label5;
         private Label label6;
-        private TextBox txtBuff;
     }
 }
