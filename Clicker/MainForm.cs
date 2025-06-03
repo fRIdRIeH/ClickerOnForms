@@ -7,7 +7,8 @@ namespace Clicker
         private System.Windows.Forms.Timer timer;
 
         //Стоковые переменные, часть будет меняться
-        int click = 1;
+        BigNumber clickPower = new BigNumber(1);
+        BigNumber totalClicks = new BigNumber(0);
 
         int buyedMoueses = 0;
         int buyedSchoolars = 0;
@@ -19,27 +20,25 @@ namespace Clicker
         int buyedKoreaHackers = 0;
 
         //Базовый cps
-        int OneSecPower = 0;
+        BigNumber OneSecPower = new BigNumber(0);
 
         //Базовые цены
-        int basePriceForMouse = 50;
-        int basePriceForSchoolar = 100;
-        int basePriceForIndianBoy = 1600;
-        int basePriceForCallCenter = 12800;
-        int basePriceForGaymer = 204800;
-        int basePriceForCyberSportman = 1638400;
-        int basePriceForCyberTeam = 13107200;
-        int basePriceForKoreaHackers = 104857600;
+        BigNumber basePriceForMouse = new BigNumber(50);
+        BigNumber basePriceForSchoolar = new BigNumber(100);
+        BigNumber basePriceForIndianBoy = new BigNumber(1600);
+        BigNumber basePriceForCallCenter = new BigNumber(12800);
+        BigNumber basePriceForGaymer = new BigNumber(204800);
+        BigNumber basePriceForCyberSportman = new BigNumber(1638400);
+        BigNumber basePriceForCyberTeam = new BigNumber(13107200);
+        BigNumber basePriceForKoreaHackers = new BigNumber(104857600);
 
         public MainForm()
         {
             InitializeComponent();
 
-            txtCount.Text = (0).ToString();
+            txtCount.Text = totalClicks.ToSuffix();
 
             LoadPowerUps();
-
-            Test();
 
             //таймер каждую секунду
 
@@ -80,19 +79,6 @@ namespace Clicker
         }
 
 
-        //
-        // 
-        //
-        private void Test()
-        {
-            BigNumber a = new BigNumber(1.5, 1000); // 1.5e1000
-            BigNumber b = new BigNumber(2.5, 999);  // 2.5e999
-
-            BigNumber result = a + b;
-
-            txtBuff.Text = result.ToString(); // например, 1.50000000000002e1000
-        }
-
 
         //
         // Таймер
@@ -102,7 +88,7 @@ namespace Clicker
             int number;
             if (int.TryParse(txtCount.Text, out number))
             {
-                txtCount.Text = (number + OneSecPower).ToString();
+                //txtCount.Text = (number + OneSecPower).ToString();
             }
         }
 
@@ -113,11 +99,9 @@ namespace Clicker
         //
         private void btnClick_Click(object sender, EventArgs e)
         {
-            int number;
-            if (int.TryParse(txtCount.Text, out number))
-            {
-                txtCount.Text = (number + click).ToString();
-            }
+            totalClicks += clickPower;
+
+            txtCount.Text = totalClicks.ToSuffix();
         }
 
 
@@ -127,14 +111,14 @@ namespace Clicker
         //
         private void txtCount_TextChanged(object sender, EventArgs e)
         {
-            if (int.Parse(txtCount.Text) > basePriceForMouse)
+            if (new BigNumber(int.Parse(txtCount.Text)) > basePriceForMouse)
             {
                 btnMouseUpgrade.Enabled = true;
             }
-            if (int.Parse(txtCount.Text) > basePriceForSchoolar)
-            {
-                btnBuySchoolar.Enabled = true;
-            }
+            //if (int.Parse(txtCount.Text) > basePriceForSchoolar)
+            //{
+            //    btnBuySchoolar.Enabled = true;
+            //}
         }
 
 
@@ -152,31 +136,31 @@ namespace Clicker
             int number;
             if (int.TryParse(txtCount.Text, out number))
             {
-                if (number >= basePriceForMouse)
-                {
-                    //вычитаем из кликов
-                    txtCount.Text = (number - basePriceForMouse).ToString();
+                //if (number >= basePriceForMouse)
+                //{
+                //    //вычитаем из кликов
+                //    txtCount.Text = (number - basePriceForMouse).ToString();
 
-                    //прибавляем к нашему нажатию 1
-                    click += 1;
+                //    //прибавляем к нашему нажатию 1
+                //    click += 1;
 
-                    lblClickPower.Text = $"Click power = {click}";
+                //    lblClickPower.Text = $"Click power = {click}";
 
-                    //прибавляем к переменной 1
-                    buyedMoueses += 1;
+                //    //прибавляем к переменной 1
+                //    buyedMoueses += 1;
 
-                    lblClicksBuyed.Text = $"Куплено: {buyedMoueses}";
+                //    lblClicksBuyed.Text = $"Куплено: {buyedMoueses}";
 
-                    //изменяем цену
-                    basePriceForMouse += (int)(basePriceForMouse * 0.3 * buyedMoueses);
+                //    //изменяем цену
+                //    basePriceForMouse += (int)(basePriceForMouse * 0.3 * buyedMoueses);
 
-                    //изменяем текст кнопки с новой ценой
-                    btnMouseUpgrade.Text = $"+1 click power for {basePriceForMouse} clicks";
-                }
-                else
-                {
-                    return;
-                }
+                //    //изменяем текст кнопки с новой ценой
+                //    btnMouseUpgrade.Text = $"+1 click power for {basePriceForMouse} clicks";
+                //}
+                //else
+                //{
+                //    return;
+                //}
             }
         }
 
@@ -185,26 +169,26 @@ namespace Clicker
             int number;
             if (int.TryParse(txtCount.Text, out number))
             {
-                if (number >= basePriceForSchoolar)
-                {
-                    txtCount.Text = (number - basePriceForSchoolar).ToString();
+                //if (number >= basePriceForSchoolar)
+                //{
+                //    txtCount.Text = (number - basePriceForSchoolar).ToString();
 
-                    OneSecPower += 1;
+                //    OneSecPower += 1;
 
-                    lblCPS.Text = $"CPS = {OneSecPower}";
+                //    lblCPS.Text = $"CPS = {OneSecPower}";
 
-                    buyedSchoolars += 1;
+                //    buyedSchoolars += 1;
 
-                    lblCPSbuyed.Text = $"Куплено: {buyedSchoolars}";
+                //    lblCPSbuyed.Text = $"Куплено: {buyedSchoolars}";
 
-                    basePriceForSchoolar += (int)(basePriceForSchoolar * 0.3 * buyedSchoolars);
+                //    basePriceForSchoolar += (int)(basePriceForSchoolar * 0.3 * buyedSchoolars);
 
-                    btnBuySchoolar.Text = $"+1 click power for {basePriceForSchoolar} clicks";
-                }
-                else
-                {
-                    return;
-                }
+                //    btnBuySchoolar.Text = $"+1 click power for {basePriceForSchoolar} clicks";
+                //}
+                //else
+                //{
+                //    return;
+                //}
             }
         }
     }
