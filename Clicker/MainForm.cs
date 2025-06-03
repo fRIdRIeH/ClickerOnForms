@@ -7,8 +7,9 @@ namespace Clicker
         private System.Windows.Forms.Timer timer;
 
         //—токовые переменные, часть будет мен€тьс€
-        BigNumber clickPower = new BigNumber(1);
+        BigNumber clickPower = new BigNumber(0.1);
         BigNumber totalClicks = new BigNumber(0);
+        BigNumber timePower = new BigNumber(0);
 
 
         public MainForm()
@@ -32,7 +33,7 @@ namespace Clicker
         //
         private void LoadPowerUps()
         {
-            
+
         }
 
 
@@ -42,7 +43,8 @@ namespace Clicker
         //
         private void Timer_Tick(object sender, EventArgs e)
         {
-            
+            totalClicks += timePower;
+            lblCount.Text = totalClicks.ToSmartString();
         }
 
 
@@ -54,10 +56,8 @@ namespace Clicker
         {
             totalClicks += clickPower;
 
-            lblCount.Text = totalClicks.ToScientificRaw();
+            lblCount.Text = totalClicks.ToSmartString();
         }
-
-
 
         //
         // –азблокировка кнопок по количеству кликов

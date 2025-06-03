@@ -36,7 +36,7 @@
             // 
             // btnClick
             // 
-            btnClick.Location = new Point(722, 644);
+            btnClick.Location = new Point(720, 525);
             btnClick.Name = "btnClick";
             btnClick.Size = new Size(177, 54);
             btnClick.TabIndex = 1;

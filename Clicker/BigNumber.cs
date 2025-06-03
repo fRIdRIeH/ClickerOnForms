@@ -139,5 +139,14 @@ namespace Clicker
         }
 
         public override string ToString() => ToScientific();
+
+        public string ToSmartString()
+        {
+            int maxSuffixExponent = 3 * 51; // 51 — число суффиксов
+            if (Exponent <= maxSuffixExponent)
+                return ToSuffix();
+            else
+                return ToScientificRaw(); // например, 1.234e777
+        }
     }
 }
